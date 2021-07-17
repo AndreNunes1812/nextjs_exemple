@@ -8,8 +8,7 @@ export default function ClientePorCodigo() {
   return (
     <Layout titulo="Navegação Dinâmica">
       <div>Código :  {router.query.codigo} </div>
-      <div>Filial :  {router.query.filial} </div>
-      
+      <div>Filial :  {router.query.filial} </div>      
     </Layout>
   )
 }
